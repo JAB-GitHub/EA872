@@ -130,7 +130,7 @@ class Controller{
 };
 
 Controller::Controller(Modelo &modelo,Visualizador &visualizador):modelo(modelo),visualizador(visualizador){
-
+cout << "Controlador inicializado" << endl;
 }
 
 void Controller::atualizador(){
